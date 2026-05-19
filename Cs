@@ -1,6 +1,6 @@
 namespace Offsets {
     public static class Info {
-        public static string ClientVersion = "version-ec412128eba3476e";
+        public static string ClientVersion = "version-9377ee10133e4be3";
     }
 
     public static class AirProperties {
@@ -11,7 +11,7 @@ namespace Offsets {
     public static class AnimationTrack {
          public const long Animation = 0xd0;
          public const long Animator = 0x118;
-         public const long IsPlaying = 0x405;
+         public const long IsPlaying = 0xa18;
          public const long Looped = 0xf5;
          public const long Speed = 0xe4;
          public const long TimePosition = 0xe8;
@@ -157,7 +157,7 @@ namespace Offsets {
     }
 
     public static class FakeDataModel {
-         public const long Pointer = 0x74f8758;
+         public const long Pointer = 0x74f6758;
          public const long RealDataModel = 0x1d0;
     }
 
@@ -181,7 +181,7 @@ namespace Offsets {
          public const long Text = 0xda8;
          public const long TextColor3 = 0xe58;
          public const long Visible = 0x5b5;
-         public const long ZIndex = 0x5ac;
+         public const long ZIndex = 0x19b;
     }
 
     public static class Humanoid {
@@ -294,21 +294,6 @@ namespace Offsets {
          public const long WoodPlanks = 0x15;
     }
 
-    public static class MeshContentProvider {
-         public const long AssetID = 0x10;
-         public const long Cache = 0xf0;
-         public const long LRUCache = 0x20;
-         public const long MeshData = 0x40;
-         public const long ToMeshData = 0x40;
-    }
-
-    public static class MeshData {
-         public const long FaceEnd = 0x38;
-         public const long FaceStart = 0x30;
-         public const long VertexEnd = 0x8;
-         public const long VertexStart = 0x0;
-    }
-
     public static class MeshPart {
          public const long MeshId = 0x2f8;
          public const long Texture = 0x328;
@@ -376,7 +361,7 @@ namespace Offsets {
     }
 
     public static class PlayerConfigurer {
-         public const long Pointer = 0x307;
+         public const long Pointer = 0x0;
     }
 
     public static class PlayerMouse {
@@ -422,14 +407,14 @@ namespace Offsets {
 
     public static class RenderView {
          public const long DeviceD3D11 = 0x8;
-         public const long LightingValid = 0x148;
-         public const long SkyValid = 0x28d;
+         public const long LightingValid = 0x0;
+         public const long SkyValid = 0x0;
          public const long VisualEngine = 0x10;
     }
 
     public static class RunService {
-         public const long HeartbeatFPS = 0xf4;
-         public const long HeartbeatTask = 0x3b8;
+         public const long HeartbeatFPS = 0xb8;
+         public const long HeartbeatTask = 0xf8;
     }
 
     public static class Script {
@@ -464,7 +449,6 @@ namespace Offsets {
     public static class Sound {
          public const long Looped = 0x155;
          public const long PlaybackSpeed = 0x134;
-         public const long Playing = 0x158;
          public const long RollOffMaxDistance = 0x138;
          public const long RollOffMinDistance = 0x13c;
          public const long SoundGroup = 0x100;
@@ -512,7 +496,7 @@ namespace Offsets {
          public const long JobName = 0x18;
          public const long JobStart = 0xc8;
          public const long MaxFPS = 0xb0;
-         public const long Pointer = 0x7c00988;
+         public const long Pointer = 0x7bfe988;
     }
 
     public static class Team {
@@ -563,7 +547,7 @@ namespace Offsets {
     public static class VisualEngine {
          public const long Dimensions = 0xaa0;
          public const long FakeDataModel = 0xa80;
-         public const long Pointer = 0x7bd71f8;
+         public const long Pointer = 0x7bd51f8;
          public const long RenderView = 0xb80;
          public const long ViewMatrix = 0x140;
     }
