@@ -4,8 +4,8 @@ namespace Offsets {
     }
 
     public static class AirProperties {
-         public const long AirDensity = 0x18;
-         public const long GlobalWind = 0x3c;
+         public const long AirDensity = 0x0;
+         public const long GlobalWind = 0x0;
     }
 
     public static class AnimationTrack {
@@ -181,7 +181,7 @@ namespace Offsets {
          public const long Text = 0xda8;
          public const long TextColor3 = 0xe58;
          public const long Visible = 0x5b5;
-         public const long ZIndex = 0x19b;
+         public const long ZIndex = 0x5ac;
     }
 
     public static class Humanoid {
@@ -571,15 +571,15 @@ namespace Offsets {
          public const long CurrentCamera = 0x4b0;
          public const long DistributedGameTime = 0x4d0;
          public const long ReadOnlyGravity = 0x9e0;
-         public const long World = 0x408;
+         public const long World = 0x378;
     }
 
     public static class World {
-         public const long AirProperties = 0x218;
-         public const long FallenPartsDestroyHeight = 0x208;
-         public const long Gravity = 0x210;
-         public const long Primitives = 0x280;
-         public const long worldStepsPerSec = 0x678;
+         public const long AirProperties = 0x0;
+         public const long FallenPartsDestroyHeight = 0x0;
+         public const long Gravity = 0x1a8;
+         public const long Primitives = 0x0;
+         public const long worldStepsPerSec = 0x0;
     }
 
 }
