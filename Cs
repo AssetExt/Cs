@@ -1,6 +1,6 @@
 namespace Offsets {
     public static class Info {
-        public static string ClientVersion = "version-460909c4fe904aae";
+        public static string ClientVersion = "version-ad5d3e2906444472";
     }
 
     public static class AirProperties {
@@ -157,7 +157,7 @@ namespace Offsets {
     }
 
     public static class FakeDataModel {
-         public const long Pointer = 0x78cf1d8;
+         public const long Pointer = 0x78ff228;
          public const long RealDataModel = 0x1d0;
     }
 
@@ -168,20 +168,20 @@ namespace Offsets {
     }
 
     public static class GuiObject {
-         public const long BackgroundColor3 = 0x550;
-         public const long BackgroundTransparency = 0x55c;
-         public const long BorderColor3 = 0x55c;
-         public const long Image = 0x998;
-         public const long LayoutOrder = 0x590;
-         public const long Position = 0x520;
-         public const long RichText = 0xb68;
+         public const long BackgroundColor3 = 0x540;
+         public const long BackgroundTransparency = 0x54c;
+         public const long BorderColor3 = 0x54c;
+         public const long Image = 0x988;
+         public const long LayoutOrder = 0x580;
+         public const long Position = 0x510;
+         public const long RichText = 0xb58;
          public const long Rotation = 0x188;
-         public const long ScreenGui_Enabled = 0x4d4;
-         public const long Size = 0x540;
-         public const long Text = 0xdb0;
-         public const long TextColor3 = 0xe60;
-         public const long Visible = 0x5bd;
-         public const long ZIndex = 0x5b4;
+         public const long ScreenGui_Enabled = 0x4c4;
+         public const long Size = 0x530;
+         public const long Text = 0xda0;
+         public const long TextColor3 = 0xe50;
+         public const long Visible = 0x5ad;
+         public const long ZIndex = 0x19b;
     }
 
     public static class Humanoid {
@@ -353,7 +353,7 @@ namespace Offsets {
          public const long MaxZoomDistance = 0x330;
          public const long MinZoomDistance = 0x334;
          public const long ModelInstance = 0x3a8;
-         public const long Mouse = 0x1178;
+         public const long Mouse = 0x1180;
          public const long NameDisplayDistance = 0x368;
          public const long Team = 0x2b0;
          public const long TeamColor = 0x374;
@@ -457,7 +457,7 @@ namespace Offsets {
     }
 
     public static class SpawnLocation {
-         public const long AllowTeamChangeOnTouch = 0x45;
+         public const long AllowTeamChangeOnTouch = 0x1f8;
          public const long Enabled = 0x1f9;
          public const long ForcefieldDuration = 0x1f0;
          public const long Neutral = 0x1fa;
@@ -496,7 +496,7 @@ namespace Offsets {
          public const long JobName = 0x18;
          public const long JobStart = 0xc8;
          public const long MaxFPS = 0xb0;
-         public const long Pointer = 0x7e5f678;
+         public const long Pointer = 0x7e90548;
     }
 
     public static class Team {
@@ -520,7 +520,7 @@ namespace Offsets {
 
     public static class Tool {
          public const long CanBeDropped = 0x4c8;
-         public const long Enabled = 0x1b5;
+         public const long Enabled = 0x4c9;
          public const long Grip = 0x4bc;
          public const long ManualActivationOnly = 0x4ca;
          public const long RequiresHandle = 0x4cb;
@@ -547,7 +547,7 @@ namespace Offsets {
     public static class VisualEngine {
          public const long Dimensions = 0xab0;
          public const long FakeDataModel = 0xa90;
-         public const long Pointer = 0x7fed100;
+         public const long Pointer = 0x801dfb0;
          public const long RenderView = 0xbb0;
          public const long ViewMatrix = 0x150;
     }
