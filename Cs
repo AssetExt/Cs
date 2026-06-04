@@ -352,7 +352,7 @@ namespace Offsets {
          public const long LocaleId = 0x110;
          public const long MaxZoomDistance = 0x330;
          public const long MinZoomDistance = 0x334;
-         public const long ModelInstance = 0x3a8;
+         public const long ModelInstance = 0x280;
          public const long Mouse = 0x1180;
          public const long NameDisplayDistance = 0x368;
          public const long Team = 0x2b0;
