@@ -1,6 +1,6 @@
 namespace Offsets {
     public static class Info {
-        public static string ClientVersion = "version-76173e47a79145c7";
+        public static string ClientVersion = "version-8884371d30284041";
     }
 
     public static class AirProperties {
@@ -18,7 +18,7 @@ namespace Offsets {
     }
 
     public static class Animator {
-         public const long ActiveAnimations = 0x880;
+         public const long ActiveAnimations = 0x888;
     }
 
     public static class Atmosphere {
@@ -102,8 +102,8 @@ namespace Offsets {
     }
 
     public static class Clothing {
-         public const long Color3 = 0x128;
-         public const long Template = 0x108;
+         public const long Color3 = 0x138;
+         public const long Template = 0x118;
     }
 
     public static class ColorCorrectionEffect {
@@ -119,16 +119,16 @@ namespace Offsets {
     }
 
     public static class DataModel {
-         public const long CreatorId = 0x190;
-         public const long GameId = 0x198;
-         public const long GameLoaded = 0x670;
+         public const long CreatorId = 0x198;
+         public const long GameId = 0x1a0;
+         public const long GameLoaded = 0x678;
          public const long JobId = 0x138;
-         public const long PlaceId = 0x1a0;
-         public const long PlaceVersion = 0x1bc;
-         public const long PrimitiveCount = 0x4a0;
+         public const long PlaceId = 0x1a8;
+         public const long PlaceVersion = 0x1c4;
+         public const long PrimitiveCount = 0x4a8;
          public const long ScriptContext = 0x440;
-         public const long ServerIP = 0x658;
-         public const long ToRenderView1 = 0x1d8;
+         public const long ServerIP = 0x660;
+         public const long ToRenderView1 = 0x1e0;
          public const long ToRenderView2 = 0x8;
          public const long ToRenderView3 = 0x28;
          public const long Workspace = 0x178;
@@ -157,7 +157,7 @@ namespace Offsets {
     }
 
     public static class FakeDataModel {
-         public const long Pointer = 0x7a39ad8;
+         public const long Pointer = 0x7bcf6a8;
          public const long RealDataModel = 0x1d8;
     }
 
@@ -231,7 +231,7 @@ namespace Offsets {
          public const long AttributeToValue = 0x18;
          public const long ChildrenEnd = 0x8;
          public const long ChildrenStart = 0x78;
-         public const long ClassBase = 0xd50;
+         public const long ClassBase = 0xcc0;
          public const long ClassDescriptor = 0x18;
          public const long ClassName = 0x8;
          public const long Name = 0xb0;
@@ -360,18 +360,18 @@ namespace Offsets {
 
     public static class Player {
          public const long AccountAge = 0x34c;
-         public const long CameraMode = 0x358;
+         public const long CameraMode = 0x35c;
          public const long DisplayName = 0x150;
-         public const long HealthDisplayDistance = 0x378;
-         public const long LocalPlayer = 0x138;
+         public const long HealthDisplayDistance = 0x37c;
+         public const long LocalPlayer = 0x148;
          public const long LocaleId = 0x130;
-         public const long MaxZoomDistance = 0x349;
-         public const long MinZoomDistance = 0x354;
-         public const long ModelInstance = 0x3c8;
-         public const long Mouse = 0x1180;
-         public const long NameDisplayDistance = 0x388;
+         public const long MaxZoomDistance = 0x354;
+         public const long MinZoomDistance = 0x358;
+         public const long ModelInstance = 0x3d0;
+         public const long Mouse = 0x1188;
+         public const long NameDisplayDistance = 0x38c;
          public const long Team = 0x2d0;
-         public const long TeamColor = 0x394;
+         public const long TeamColor = 0x398;
          public const long UserId = 0x2f8;
     }
 
@@ -389,7 +389,7 @@ namespace Offsets {
          public const long AssemblyLinearVelocity = 0xf8;
          public const long Flags = 0x1b6;
          public const long Material = 0x0;
-         public const long Owner = 0x200;
+         public const long Owner = 0x208;
          public const long Position = 0xec;
          public const long Rotation = 0xc8;
          public const long Size = 0x1b8;
@@ -472,7 +472,7 @@ namespace Offsets {
     }
 
     public static class SpawnLocation {
-         public const long AllowTeamChangeOnTouch = 0x3d;
+         public const long AllowTeamChangeOnTouch = 0x1f0;
          public const long Enabled = 0x1f1;
          public const long ForcefieldDuration = 0x1e8;
          public const long Neutral = 0x1f2;
@@ -511,7 +511,7 @@ namespace Offsets {
          public const long JobName = 0x18;
          public const long JobStart = 0xc8;
          public const long MaxFPS = 0xb0;
-         public const long Pointer = 0x7fcb088;
+         public const long Pointer = 0x815c668;
     }
 
     public static class Team {
@@ -534,13 +534,13 @@ namespace Offsets {
     }
 
     public static class Tool {
-         public const long CanBeDropped = 0x4c8;
-         public const long Enabled = 0x4c9;
-         public const long Grip = 0x4bc;
-         public const long ManualActivationOnly = 0x4ca;
-         public const long RequiresHandle = 0x4cb;
-         public const long TextureId = 0x370;
-         public const long Tooltip = 0x478;
+         public const long CanBeDropped = 0x4c0;
+         public const long Enabled = 0x4c1;
+         public const long Grip = 0x4b4;
+         public const long ManualActivationOnly = 0x4c2;
+         public const long RequiresHandle = 0x4c3;
+         public const long TextureId = 0x368;
+         public const long Tooltip = 0x470;
     }
 
     public static class UnionOperation {
@@ -562,8 +562,8 @@ namespace Offsets {
     public static class VisualEngine {
          public const long Dimensions = 0xab0;
          public const long FakeDataModel = 0xa90;
-         public const long Pointer = 0x8158b80;
-         public const long RenderView = 0xbb0;
+         public const long Pointer = 0x82ea3f8;
+         public const long RenderView = 0xbb8;
          public const long ViewMatrix = 0x150;
     }
 
@@ -583,18 +583,18 @@ namespace Offsets {
     }
 
     public static class Workspace {
-         public const long CurrentCamera = 0x4b0;
-         public const long DistributedGameTime = 0x4d0;
-         public const long ReadOnlyGravity = 0x9f0;
-         public const long World = 0x408;
+         public const long CurrentCamera = 0x4a8;
+         public const long DistributedGameTime = 0x4c8;
+         public const long ReadOnlyGravity = 0x9e8;
+         public const long World = 0x400;
     }
 
     public static class World {
          public const long AirProperties = 0x218;
          public const long FallenPartsDestroyHeight = 0x208;
          public const long Gravity = 0x210;
-         public const long Primitives = 0x280;
-         public const long worldStepsPerSec = 0x678;
+         public const long Primitives = 0x288;
+         public const long worldStepsPerSec = 0x680;
     }
 
 }
