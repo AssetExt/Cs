@@ -1,6 +1,6 @@
 namespace Offsets {
     public static class Info {
-        public static string ClientVersion = "version-5cf2272675e145f5";
+        public static string ClientVersion = "version-90f2fddd3b244ff6";
     }
 
     public static class AirProperties {
@@ -10,15 +10,15 @@ namespace Offsets {
 
     public static class AnimationTrack {
          public const long Animation = 0xb8;
-         public const long Animator = 0x100;
-         public const long IsPlaying = 0xa40;
-         public const long Looped = 0xdd;
-         public const long Speed = 0xcc;
-         public const long TimePosition = 0xd0;
+         public const long Animator = 0x108;
+         public const long IsPlaying = 0xa90;
+         public const long Looped = 0xe5;
+         public const long Speed = 0xd4;
+         public const long TimePosition = 0xd8;
     }
 
     public static class Animator {
-         public const long ActiveAnimations = 0x9d0;
+         public const long ActiveAnimations = 0xa20;
     }
 
     public static class Atmosphere {
@@ -132,13 +132,13 @@ namespace Offsets {
     public static class DataModel {
          public const long CreatorId = 0x180;
          public const long GameId = 0x188;
-         public const long GameLoaded = 0x658;
+         public const long GameLoaded = 0x668;
          public const long JobId = 0x120;
          public const long PlaceId = 0x190;
          public const long PlaceVersion = 0x1ac;
-         public const long PrimitiveCount = 0x488;
+         public const long PrimitiveCount = 0x498;
          public const long ScriptContext = 0x440;
-         public const long ServerIP = 0x640;
+         public const long ServerIP = 0x650;
          public const long ToRenderView1 = 0x1c8;
          public const long ToRenderView2 = 0x8;
          public const long ToRenderView3 = 0x28;
@@ -168,7 +168,7 @@ namespace Offsets {
     }
 
     public static class FakeDataModel {
-         public const long Pointer = 0x7c3d2e8;
+         public const long Pointer = 0x7cb3d78;
          public const long RealDataModel = 0x1d0;
     }
 
@@ -192,7 +192,7 @@ namespace Offsets {
          public const long Text = 0xda0;
          public const long TextColor3 = 0xe50;
          public const long Visible = 0x5ad;
-         public const long ZIndex = 0x5a4;
+         public const long ZIndex = 0x18b;
     }
 
     public static class Humanoid {
@@ -345,7 +345,7 @@ namespace Offsets {
          public const long InputObject = 0xf0;
          public const long InputObject2 = 0x100;
          public const long MousePosition = 0xd4;
-         public const long SensitivityPointer = 0x7dfd318;
+         public const long SensitivityPointer = 0x7e743c8;
     }
 
     public static class ParticleEmitter {
@@ -367,20 +367,20 @@ namespace Offsets {
     }
 
     public static class Player {
-         public const long AccountAge = 0x34c;
-         public const long CameraMode = 0x360;
+         public const long AccountAge = 0x35c;
+         public const long CameraMode = 0x370;
          public const long DisplayName = 0x138;
-         public const long HealthDisplayDistance = 0x380;
+         public const long HealthDisplayDistance = 0x390;
          public const long LocalPlayer = 0x130;
          public const long LocaleId = 0x118;
-         public const long MaxZoomDistance = 0x358;
-         public const long MinZoomDistance = 0x35c;
+         public const long MaxZoomDistance = 0x368;
+         public const long MinZoomDistance = 0x36c;
          public const long ModelInstance = 0x298;
-         public const long Mouse = 0x11c8;
-         public const long NameDisplayDistance = 0x390;
-         public const long Team = 0x2c8;
-         public const long TeamColor = 0x39c;
-         public const long UserId = 0x2f0;
+         public const long Mouse = 0x11d8;
+         public const long NameDisplayDistance = 0x3a0;
+         public const long Team = 0x2d8;
+         public const long TeamColor = 0x3ac;
+         public const long UserId = 0x300;
     }
 
     public static class PlayerConfigurer {
@@ -415,7 +415,7 @@ namespace Offsets {
          public const long ActionText = 0xb0;
          public const long Enabled = 0x136;
          public const long GamepadKeyCode = 0x11c;
-         public const long HoldDuration = 0x120;
+         public const long HoldDuration = 0x97;
          public const long KeyCode = 0x124;
          public const long MaxActivationDistance = 0x128;
          public const long ObjectText = 0xd0;
@@ -436,8 +436,8 @@ namespace Offsets {
     }
 
     public static class RunService {
-         public const long HeartbeatFPS = 0xbc;
-         public const long HeartbeatTask = 0x1b0;
+         public const long HeartbeatFPS = 0xd0;
+         public const long HeartbeatTask = 0x308;
     }
 
     public static class Script {
@@ -519,7 +519,7 @@ namespace Offsets {
          public const long JobName = 0x18;
          public const long JobStart = 0xc8;
          public const long MaxFPS = 0xb0;
-         public const long Pointer = 0x81cc868;
+         public const long Pointer = 0x8244248;
     }
 
     public static class Team {
@@ -570,7 +570,7 @@ namespace Offsets {
     public static class VisualEngine {
          public const long Dimensions = 0xab0;
          public const long FakeDataModel = 0xa90;
-         public const long Pointer = 0x835a548;
+         public const long Pointer = 0x83d1f98;
          public const long RenderView = 0xbb8;
          public const long ViewMatrix = 0x150;
     }
@@ -591,10 +591,10 @@ namespace Offsets {
     }
 
     public static class Workspace {
-         public const long CurrentCamera = 0x4a0;
-         public const long DistributedGameTime = 0x4c0;
-         public const long ReadOnlyGravity = 0x9b0;
-         public const long World = 0x3f8;
+         public const long CurrentCamera = 0x488;
+         public const long DistributedGameTime = 0x4a8;
+         public const long ReadOnlyGravity = 0x998;
+         public const long World = 0x3e0;
     }
 
     public static class World {
