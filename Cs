@@ -1,6 +1,6 @@
 namespace Offsets {
     public static class Info {
-        public static string ClientVersion = "version-90f2fddd3b244ff6";
+        public static string ClientVersion = "version-36a2600cebf1487d";
     }
 
     public static class AirProperties {
@@ -168,7 +168,7 @@ namespace Offsets {
     }
 
     public static class FakeDataModel {
-         public const long Pointer = 0x7cb3d78;
+         public const long Pointer = 0x84a9e98;
          public const long RealDataModel = 0x1d0;
     }
 
@@ -345,7 +345,7 @@ namespace Offsets {
          public const long InputObject = 0xf0;
          public const long InputObject2 = 0x100;
          public const long MousePosition = 0xd4;
-         public const long SensitivityPointer = 0x7e743c8;
+         public const long SensitivityPointer = 0x0;
     }
 
     public static class ParticleEmitter {
@@ -415,7 +415,7 @@ namespace Offsets {
          public const long ActionText = 0xb0;
          public const long Enabled = 0x136;
          public const long GamepadKeyCode = 0x11c;
-         public const long HoldDuration = 0x97;
+         public const long HoldDuration = 0x120;
          public const long KeyCode = 0x124;
          public const long MaxActivationDistance = 0x128;
          public const long ObjectText = 0xd0;
@@ -436,8 +436,8 @@ namespace Offsets {
     }
 
     public static class RunService {
-         public const long HeartbeatFPS = 0xd0;
-         public const long HeartbeatTask = 0x308;
+         public const long HeartbeatFPS = 0xb4;
+         public const long HeartbeatTask = 0xc08;
     }
 
     public static class Script {
@@ -480,7 +480,7 @@ namespace Offsets {
     }
 
     public static class SpawnLocation {
-         public const long AllowTeamChangeOnTouch = 0x188;
+         public const long AllowTeamChangeOnTouch = 0x3d;
          public const long Enabled = 0x189;
          public const long ForcefieldDuration = 0x180;
          public const long Neutral = 0x18a;
@@ -519,7 +519,7 @@ namespace Offsets {
          public const long JobName = 0x18;
          public const long JobStart = 0xc8;
          public const long MaxFPS = 0xb0;
-         public const long Pointer = 0x8244248;
+         public const long Pointer = 0x8041ec8;
     }
 
     public static class Team {
@@ -570,7 +570,7 @@ namespace Offsets {
     public static class VisualEngine {
          public const long Dimensions = 0xab0;
          public const long FakeDataModel = 0xa90;
-         public const long Pointer = 0x83d1f98;
+         public const long Pointer = 0x81d61c8;
          public const long RenderView = 0xbb8;
          public const long ViewMatrix = 0x150;
     }
