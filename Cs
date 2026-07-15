@@ -1,17 +1,17 @@
 namespace Offsets {
     public static class Info {
-        public static string ClientVersion = "version-eb158392d1c84e6a";
+        public static string ClientVersion = "version-ddf02245bdbb428c";
     }
 
     public static class AirProperties {
-         public const long AirDensity = 0x18;
-         public const long GlobalWind = 0x3c;
+         public const long AirDensity = 0x0;
+         public const long GlobalWind = 0x0;
     }
 
     public static class AnimationTrack {
          public const long Animation = 0xb8;
          public const long Animator = 0x108;
-         public const long IsPlaying = 0x42a;
+         public const long IsPlaying = 0xa90;
          public const long Looped = 0xe5;
          public const long Speed = 0xd4;
          public const long TimePosition = 0xd8;
@@ -168,7 +168,7 @@ namespace Offsets {
     }
 
     public static class FakeDataModel {
-         public const long Pointer = 0x851f568;
+         public const long Pointer = 0x7d28508;
          public const long RealDataModel = 0x1d0;
     }
 
@@ -345,7 +345,7 @@ namespace Offsets {
          public const long InputObject = 0xf0;
          public const long InputObject2 = 0x100;
          public const long MousePosition = 0xd4;
-         public const long SensitivityPointer = 0x0;
+         public const long SensitivityPointer = 0x7ee9b58;
     }
 
     public static class ParticleEmitter {
@@ -373,7 +373,7 @@ namespace Offsets {
          public const long HealthDisplayDistance = 0x390;
          public const long LocalPlayer = 0x130;
          public const long LocaleId = 0x118;
-         public const long MaxZoomDistance = 0x368;
+         public const long MaxZoomDistance = 0x1bd;
          public const long MinZoomDistance = 0x36c;
          public const long ModelInstance = 0x298;
          public const long Mouse = 0x11d8;
@@ -436,8 +436,8 @@ namespace Offsets {
     }
 
     public static class RunService {
-         public const long HeartbeatFPS = 0xb4;
-         public const long HeartbeatTask = 0x308;
+         public const long HeartbeatFPS = 0xf4;
+         public const long HeartbeatTask = 0x3b8;
     }
 
     public static class Script {
@@ -481,7 +481,7 @@ namespace Offsets {
     }
 
     public static class SpawnLocation {
-         public const long AllowTeamChangeOnTouch = 0x3d;
+         public const long AllowTeamChangeOnTouch = 0x188;
          public const long Enabled = 0x189;
          public const long ForcefieldDuration = 0x180;
          public const long Neutral = 0x18a;
@@ -520,7 +520,7 @@ namespace Offsets {
          public const long JobName = 0x18;
          public const long JobStart = 0xc8;
          public const long MaxFPS = 0xb0;
-         public const long Pointer = 0x80b7468;
+         public const long Pointer = 0x82b9f48;
     }
 
     public static class Team {
@@ -546,7 +546,7 @@ namespace Offsets {
          public const long CanBeDropped = 0x4b8;
          public const long Enabled = 0x4b9;
          public const long Grip = 0x4ac;
-         public const long ManualActivationOnly = 0x1d5;
+         public const long ManualActivationOnly = 0x4ba;
          public const long RequiresHandle = 0x4bb;
          public const long TextureId = 0x360;
          public const long Tooltip = 0x468;
@@ -571,7 +571,7 @@ namespace Offsets {
     public static class VisualEngine {
          public const long Dimensions = 0xab0;
          public const long FakeDataModel = 0xa90;
-         public const long Pointer = 0x824b728;
+         public const long Pointer = 0x8447c68;
          public const long RenderView = 0xbb8;
          public const long ViewMatrix = 0x150;
     }
@@ -595,15 +595,15 @@ namespace Offsets {
          public const long CurrentCamera = 0x488;
          public const long DistributedGameTime = 0x4a8;
          public const long ReadOnlyGravity = 0x998;
-         public const long World = 0x3e0;
+         public const long World = 0x368;
     }
 
     public static class World {
-         public const long AirProperties = 0x218;
-         public const long FallenPartsDestroyHeight = 0x208;
-         public const long Gravity = 0x210;
-         public const long Primitives = 0x288;
-         public const long worldStepsPerSec = 0x680;
+         public const long AirProperties = 0x0;
+         public const long FallenPartsDestroyHeight = 0x0;
+         public const long Gravity = 0x1a4;
+         public const long Primitives = 0x0;
+         public const long worldStepsPerSec = 0xc16;
     }
 
 }
